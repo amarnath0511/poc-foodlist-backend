@@ -3,7 +3,7 @@ import { connect, ConnectOptions } from "mongoose";
 // const mongoose = require('mongoose');
 
 export const dbConnect=()=>{
-    connect(process.env.MONGO_URI!,{
+    connect('mongodb+srv://Amarnath:amarnathN@cluster0.1e9kkdb.mongodb.net/Foods?retryWrites=true&w=majority',{
         useNewUrlParser : true,
         useUnifiedTopology: true,
     } as ConnectOptions).then(

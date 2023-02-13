@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json());
 app.use( cors({
     credentials:true,
-    origin:["https://poc-foodlist-frontend.vercel.app/"]
+    origin:["http://poc-foodlist-frontend.vercel.app/"]
 }));
 
 

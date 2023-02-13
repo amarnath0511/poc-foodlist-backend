@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json());
 app.use( cors({
     credentials:true,
-    origin:["http://localhost:4200"]
+    origin:["https://poc-foodlist-frontend-4t9cnt6tp-amarnath0511.vercel.app/"]
 }));
 
 
